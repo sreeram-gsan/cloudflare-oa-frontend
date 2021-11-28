@@ -2,14 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Sreeram Ganesan`,
+      summary: `MS Computer Science student at the University of Colorado Boulder`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    serverHost : `http://localhost`,
+    serverPort : `8787`
   },
   plugins: [
     `gatsby-plugin-image`,
