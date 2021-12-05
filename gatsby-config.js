@@ -7,7 +7,7 @@ module.exports = {
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    serverHost : `http://localhost`,
+    serverHost : `https://worker1.sree.workers.dev/`,
     serverPort : `8787`
   },
   plugins: [

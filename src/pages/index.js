@@ -21,7 +21,7 @@ const BlogIndex = ({ data, location }) => {
   const [image, setImage] = useState("")
   const [body, setBody] = useState("")
   const [imagebase64,setImageBase64] = useState("")  
-  let url = "http://localhost:8787"
+  let url = "https://worker1.sree.workers.dev"
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
